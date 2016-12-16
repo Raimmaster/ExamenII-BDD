@@ -1,0 +1,100 @@
+﻿VS filter: testpath:TestAssembly:Examen2/Feature:Examen/Scenario:Getting+max%2fmin+values+of+binary+tree
+Discovering target: Default
+Discovering tests from assembly: C:\Users\Raim\Documents\Visual Studio 2015\Projects\Examen2\Examen2\bin\Debug\Examen2.dll
+Appdomain Disposed
+Test Suite Dump
+#0: Examen2/Default - 
+#1: Default - 
+#2: Examen2 - 
+#3: Examen - 
+#7: Getting max/min values of binary tree - TestAssembly:Examen2/Feature:Examen/Scenario:Getting+max%2fmin+values+of+binary+tree
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #7 from normal test queue 
+Thread#0:Scheduler: considering testitem #7 for thread
+Thread#0:Scheduler: using testitem #7 for thread
+Thread#0:Scheduler: Test #7 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for Examen2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\Raim\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.5.2\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #7/0 is started on thread #0
+Thread#0:B:Given I have the following tree nodes
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | NodeId | Value | Left | Right |
+Thread#0:B:  | 1      | 100   | 2    | 3     |
+Thread#0:B:  | 2      | 200   | 4    | 5     |
+Thread#0:B:  | 3      | 11    | 6    | 7     |
+Thread#0:B:  | 4      | 10    | 0    | 0     |
+Thread#0:B:  | 5      | 340   | 0    | 0     |
+Thread#0:B:  | 6      | 44    | 8    | 0     |
+Thread#0:B:  | 7      | 52    | 0    | 0     |
+Thread#0:B:  | 8      | 1     | 0    | 0     |
+Thread#0:T:done: ExamenMinMaxTest.GivenIHaveTheFollowingTreeNodes(<table>) (0.1s)
+Thread#0:B:When get tree stats is called
+Thread#0:T:error: Object reference not set to an instance of an object.
+Thread#0:B:Then max value should be 340 and min value should be 1
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: reschedule tests for testitem #0
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: dequeuing a rescheduled testitem: #7
+Thread#0:Scheduler: considering testitem #7 for thread
+Thread#0:Scheduler: using testitem #7 for thread
+Thread#0:Scheduler: Test #7 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #7/0 is finished on thread #0 as Failed within 1.1547248 seconds
+Thread#0: Test #7/1 is started on thread #0
+Thread#0:B:Given I have the following tree nodes
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | NodeId | Value | Left | Right |
+Thread#0:B:  | 1      | 100   | 2    | 3     |
+Thread#0:B:  | 2      | 200   | 4    | 5     |
+Thread#0:B:  | 3      | 11    | 6    | 7     |
+Thread#0:B:  | 4      | 10    | 0    | 0     |
+Thread#0:B:  | 5      | 340   | 0    | 0     |
+Thread#0:B:  | 6      | 44    | 8    | 0     |
+Thread#0:B:  | 7      | 52    | 0    | 0     |
+Thread#0:B:  | 8      | 1     | 0    | 0     |
+Thread#0:T:done: ExamenMinMaxTest.GivenIHaveTheFollowingTreeNodes(<table>) (0.0s)
+Thread#0:B:When get tree stats is called
+Thread#0:T:error: Object reference not set to an instance of an object.
+Thread#0:B:Then max value should be 340 and min value should be 1
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: dequeuing a rescheduled testitem: #7
+Thread#0:Scheduler: considering testitem #7 for thread
+Thread#0:Scheduler: using testitem #7 for thread
+Thread#0:Scheduler: Test #7 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #7/1 is finished on thread #0 as Failed within 0.0100071 seconds
+Thread#0: Test #7/2 is started on thread #0
+Thread#0:B:Given I have the following tree nodes
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | NodeId | Value | Left | Right |
+Thread#0:B:  | 1      | 100   | 2    | 3     |
+Thread#0:B:  | 2      | 200   | 4    | 5     |
+Thread#0:B:  | 3      | 11    | 6    | 7     |
+Thread#0:B:  | 4      | 10    | 0    | 0     |
+Thread#0:B:  | 5      | 340   | 0    | 0     |
+Thread#0:B:  | 6      | 44    | 8    | 0     |
+Thread#0:B:  | 7      | 52    | 0    | 0     |
+Thread#0:B:  | 8      | 1     | 0    | 0     |
+Thread#0:T:done: ExamenMinMaxTest.GivenIHaveTheFollowingTreeNodes(<table>) (0.0s)
+Thread#0:B:When get tree stats is called
+Thread#0:T:error: Object reference not set to an instance of an object.
+Thread#0:B:Then max value should be 340 and min value should be 1
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread 
+Thread#0: Test #7/2 is finished on thread #0 as Failed within 0.0239883 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 1 (test executions: 3)
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 1

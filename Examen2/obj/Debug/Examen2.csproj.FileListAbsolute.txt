@@ -1,0 +1,15 @@
+c:\users\raim\documents\visual studio 2015\Projects\Examen2\Examen2\bin\Debug\Default.srprofile
+c:\users\raim\documents\visual studio 2015\Projects\Examen2\Examen2\bin\Debug\Examen2.dll.config
+c:\users\raim\documents\visual studio 2015\Projects\Examen2\Examen2\bin\Debug\Examen2.dll
+c:\users\raim\documents\visual studio 2015\Projects\Examen2\Examen2\bin\Debug\Examen2.pdb
+c:\users\raim\documents\visual studio 2015\Projects\Examen2\Examen2\bin\Debug\Castle.Core.dll
+c:\users\raim\documents\visual studio 2015\Projects\Examen2\Examen2\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+c:\users\raim\documents\visual studio 2015\Projects\Examen2\Examen2\bin\Debug\Moq.dll
+c:\users\raim\documents\visual studio 2015\Projects\Examen2\Examen2\bin\Debug\SpecRun.SpecFlowPlugin.dll
+c:\users\raim\documents\visual studio 2015\Projects\Examen2\Examen2\bin\Debug\TechTalk.SpecFlow.dll
+c:\users\raim\documents\visual studio 2015\Projects\Examen2\Examen2\bin\Debug\TechTalk.SpecRun.dll
+c:\users\raim\documents\visual studio 2015\Projects\Examen2\Examen2\bin\Debug\Castle.Core.xml
+c:\users\raim\documents\visual studio 2015\Projects\Examen2\Examen2\bin\Debug\Moq.xml
+c:\users\raim\documents\visual studio 2015\Projects\Examen2\Examen2\obj\Debug\Examen2.csprojResolveAssemblyReference.cache
+c:\users\raim\documents\visual studio 2015\Projects\Examen2\Examen2\obj\Debug\Examen2.dll
+c:\users\raim\documents\visual studio 2015\Projects\Examen2\Examen2\obj\Debug\Examen2.pdb

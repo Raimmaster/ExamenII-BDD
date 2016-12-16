@@ -1,0 +1,127 @@
+﻿VS filter: testpath:TestAssembly:Examen2/Feature:Examen/Scenario:Look+for+products+with+less+than+10+total+Qty+that+needs+backorder
+Discovering target: Default
+Discovering tests from assembly: C:\Users\Raim\documents\visual studio 2015\Projects\Examen2\Examen2\bin\Debug\Examen2.dll
+Appdomain Disposed
+Test Suite Dump
+#0: Examen2/Default - 
+#1: Default - 
+#2: Examen2 - 
+#3: Examen - 
+#4: Look for products with less than 10 total Qty that needs backorder - TestAssembly:Examen2/Feature:Examen/Scenario:Look+for+products+with+less+than+10+total+Qty+that+needs+backorder
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread
+Thread#0:Scheduler: using testitem #4 for thread
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for Examen2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\Raim\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.5.2\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:B:Given I have the follwing products
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | Code | Name | Description |
+Thread#0:B:  | 1    | A    | an A        |
+Thread#0:B:  | 2    | B    | a B         |
+Thread#0:B:  | 3    | C    | a C         |
+Thread#0:T:done: ExamenProductsTest.GivenIHaveTheFollwingProducts(<table>) (0.2s)
+Thread#0:B:And I have the following inventory transactions
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | ProductCode | Qty | TransactionType |
+Thread#0:B:  | 1           | 10  | In              |
+Thread#0:B:  | 1           | 20  | In              |
+Thread#0:B:  | 1           | 25  | Out             |
+Thread#0:B:  | 2           | 100 | In              |
+Thread#0:B:  | 2           | 20  | Out             |
+Thread#0:B:  | 3           | 10  | In              |
+Thread#0:B:  | 3           | 30  | In              |
+Thread#0:T:done: ExamenProductsTest.GivenIHaveTheFollowingInventoryTransactions(<table>) (0.0s)
+Thread#0:B:When we check which products needs backorder
+Thread#0:T:error: Can not create proxy for type Moq.IMocked`1[[Examen2.ITransactionable, Examen2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] because type Examen2.ITransactionable is not accessible. Make it public, or internal and mark your assembly with [assembly: InternalsVisibleTo(InternalsVisible.ToDynamicProxyGenAssembly2)] attribute, because assembly Moq is strong-named.
+Thread#0:B:Then the following products will appear that needs back order
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | Code | Name | Description |
+Thread#0:B:  | 1    | A    | an A        |
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: reschedule tests for testitem #0
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread
+Thread#0:Scheduler: using testitem #4 for thread
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #4/0 is finished on thread #0 as Failed within 1.7376492 seconds
+Thread#0: Test #4/1 is started on thread #0
+Thread#0:B:Given I have the follwing products
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | Code | Name | Description |
+Thread#0:B:  | 1    | A    | an A        |
+Thread#0:B:  | 2    | B    | a B         |
+Thread#0:B:  | 3    | C    | a C         |
+Thread#0:T:done: ExamenProductsTest.GivenIHaveTheFollwingProducts(<table>) (0.0s)
+Thread#0:B:And I have the following inventory transactions
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | ProductCode | Qty | TransactionType |
+Thread#0:B:  | 1           | 10  | In              |
+Thread#0:B:  | 1           | 20  | In              |
+Thread#0:B:  | 1           | 25  | Out             |
+Thread#0:B:  | 2           | 100 | In              |
+Thread#0:B:  | 2           | 20  | Out             |
+Thread#0:B:  | 3           | 10  | In              |
+Thread#0:B:  | 3           | 30  | In              |
+Thread#0:T:done: ExamenProductsTest.GivenIHaveTheFollowingInventoryTransactions(<table>) (0.0s)
+Thread#0:B:When we check which products needs backorder
+Thread#0:T:error: Can not create proxy for type Moq.IMocked`1[[Examen2.ITransactionable, Examen2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] because type Examen2.ITransactionable is not accessible. Make it public, or internal and mark your assembly with [assembly: InternalsVisibleTo(InternalsVisible.ToDynamicProxyGenAssembly2)] attribute, because assembly Moq is strong-named.
+Thread#0:B:Then the following products will appear that needs back order
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | Code | Name | Description |
+Thread#0:B:  | 1    | A    | an A        |
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread
+Thread#0:Scheduler: using testitem #4 for thread
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #4/1 is finished on thread #0 as Failed within 0.1744968 seconds
+Thread#0: Test #4/2 is started on thread #0
+Thread#0:B:Given I have the follwing products
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | Code | Name | Description |
+Thread#0:B:  | 1    | A    | an A        |
+Thread#0:B:  | 2    | B    | a B         |
+Thread#0:B:  | 3    | C    | a C         |
+Thread#0:T:done: ExamenProductsTest.GivenIHaveTheFollwingProducts(<table>) (0.0s)
+Thread#0:B:And I have the following inventory transactions
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | ProductCode | Qty | TransactionType |
+Thread#0:B:  | 1           | 10  | In              |
+Thread#0:B:  | 1           | 20  | In              |
+Thread#0:B:  | 1           | 25  | Out             |
+Thread#0:B:  | 2           | 100 | In              |
+Thread#0:B:  | 2           | 20  | Out             |
+Thread#0:B:  | 3           | 10  | In              |
+Thread#0:B:  | 3           | 30  | In              |
+Thread#0:T:done: ExamenProductsTest.GivenIHaveTheFollowingInventoryTransactions(<table>) (0.0s)
+Thread#0:B:When we check which products needs backorder
+Thread#0:T:error: Can not create proxy for type Moq.IMocked`1[[Examen2.ITransactionable, Examen2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] because type Examen2.ITransactionable is not accessible. Make it public, or internal and mark your assembly with [assembly: InternalsVisibleTo(InternalsVisible.ToDynamicProxyGenAssembly2)] attribute, because assembly Moq is strong-named.
+Thread#0:B:Then the following products will appear that needs back order
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | Code | Name | Description |
+Thread#0:B:  | 1    | A    | an A        |
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread 
+Thread#0: Test #4/2 is finished on thread #0 as Failed within 0.1830991 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 1 (test executions: 3)
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 1

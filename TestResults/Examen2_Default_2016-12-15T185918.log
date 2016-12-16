@@ -1,0 +1,57 @@
+﻿VS filter: testpath:TestAssembly:Examen2/Feature:Examen/Scenario:Filter+transactions+by+type+In
+Discovering target: Default
+Discovering tests from assembly: C:\Users\Raim\Documents\Visual Studio 2015\Projects\Examen2\Examen2\bin\Debug\Examen2.dll
+Appdomain Disposed
+Test Suite Dump
+#0: Examen2/Default - 
+#1: Default - 
+#2: Examen2 - 
+#3: Examen - 
+#6: Filter transactions by type In - TestAssembly:Examen2/Feature:Examen/Scenario:Filter+transactions+by+type+In
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #6 from normal test queue 
+Thread#0:Scheduler: considering testitem #6 for thread
+Thread#0:Scheduler: using testitem #6 for thread
+Thread#0:Scheduler: Test #6 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for Examen2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\Raim\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.5.2\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #6/0 is started on thread #0
+Thread#0:B:Given I have the following inventory transaction
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | ProductCode | Qty | TransactionType |
+Thread#0:B:  | 1           | 10  | In              |
+Thread#0:B:  | 1           | 20  | In              |
+Thread#0:B:  | 1           | 25  | Out             |
+Thread#0:B:  | 2           | 100 | In              |
+Thread#0:B:  | 2           | 20  | Out             |
+Thread#0:B:  | 3           | 10  | In              |
+Thread#0:B:  | 3           | 30  | In              |
+Thread#0:T:done: ExamenFilterTest.GivenIHaveTheFollowingInventoryTransaction(<table>) (0.1s)
+Thread#0:B:When filter by transacion type 'In'
+Thread#0:T:done: ExamenFilterTest.WhenFilterByTransacionType("In") (0.0s)
+Thread#0:B:Then the transactions should look like
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | ProductCode | Qty | TransactionType |
+Thread#0:B:  | 1           | 10  | In              |
+Thread#0:B:  | 1           | 20  | In              |
+Thread#0:B:  | 2           | 100 | In              |
+Thread#0:B:  | 3           | 10  | In              |
+Thread#0:B:  | 3           | 30  | In              |
+Thread#0:T:done: ExamenFilterTest.ThenTheTransactionsShouldLookLike(<table>) (0.0s)
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread 
+Thread#0: Test #6/0 is finished on thread #0 as Succeeded within 1.1447874 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 1
+Succeeded: 1
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0
